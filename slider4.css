@@ -1,0 +1,89 @@
+.blocReponse:target
+{
+    background: #DDD;
+    border: 1px solid#000;
+}
+
+.blocReponse:target .reponse
+{
+    font-style: italic;
+    color: #FFF;
+}
+
+#body
+{
+    margin: 0;
+}
+
+#slideshow
+{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+#slideshow img
+{
+    width: 50%;
+}
+
+#sContent
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 200%;
+    transition: left 1s;
+}
+
+#sContent li
+{
+    display: inline;
+}
+
+#slideshow:target #sContent
+{
+    left: -100%;
+}
+
+.slider a
+{
+    font-size: 8em;
+    text-decoration: none;
+    opacity: 0.5;
+    color: black;
+}
+
+.slider a:hover
+{
+    opacity: 1;
+}
+
+.slider
+{
+    position: relative;
+}
+
+.left
+{
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.right
+{
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+img
+{
+    width: 100%;
+    height: 100%;
+}
+
